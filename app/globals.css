@@ -1,0 +1,54 @@
+/* styles/globals.css */
+body {
+  background-color: #000;
+  color: #39ff14;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+textarea {
+  background-color: #000000;
+  border: 2px solid #00ffcc;
+  color: #39ff14;
+  font-family: monospace;
+  resize: vertical;
+  box-shadow: 0 0 8px #00ffcc;
+}
+
+button {
+  background-color: #00ccff;
+  color: black;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 6px #00ccff;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #39ff14;
+  box-shadow: 0 0 10px #39ff14;
+}
+
+pre {
+  background: #000000;
+  border: 2px solid #39ff14;
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  box-shadow: inset 0 0 6px #39ff14;
+}
+
+textarea, pre {
+  font-family: var(--font-vt323), monospace;
+}
+
+:root {
+  --font-vt323: 'VT323', monospace;
+}
+
+.font-vt323 {
+  font-family: var(--font-vt323);
+}
