@@ -1,0 +1,1 @@
+# ai-solana-contract-gen
